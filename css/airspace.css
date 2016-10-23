@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/feature-bg.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -251,6 +251,21 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+}
+#feature .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#feature .block p {
+  color:#7B7B7B;
+  padding-top: 5px;
+}
+#feature .section-title {
+  margin-bottom: 0px;
+}
+#feature .section-title p {
+  padding-top: 20px;
 }
 #feature h2 {
   font-size: 28px;
